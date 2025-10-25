@@ -34,11 +34,11 @@ export SDL_GAMECONTROLLERCONFIG="$sdl_controllerconfig"
 
 # Check if we need to patch the game
 if [ ! -f patchlog.txt ] || [ -f "$GAMEDIR/assets/data.win" ]; then
-    if [ -f "$GAMEIR/assets/menues01 - 01.csv" ] ; then
-        mv "$GAMEDIR/assets/menues01 - 01.csv" "$GAMEDIR/assets/menues01_-_01.csv"
-        mv "$GAMEDIR/assets/script01 - 01.csv" "$GAMEDIR/assets/script01_-_01.csv"
-        mv "$GAMEDIR/assets/backersNames01 - 01.csv" "$GAMEDIR/assets/backersNames01_-_01.csv"
-        mv "$GAMEDIR/assets/credits01 - 01.csv" "$GAMEDIR/assets/credits01_-_01.csv"
+    if [ -f "$GAMEDIR/assets/menues01 - 01.csv" ] ; then
+        mv "$GAMEDIR/assets/menues01 - 01.csv" 		"$GAMEDIR/assets/menues01_-_01.csv"
+        mv "$GAMEDIR/assets/script01 - 01.csv" 		"$GAMEDIR/assets/script01_-_01.csv"
+        mv "$GAMEDIR/assets/backersNames01 - 01.csv" 	"$GAMEDIR/assets/backersNames01_-_01.csv"
+        mv "$GAMEDIR/assets/credits01 - 01.csv" 	"$GAMEDIR/assets/credits01_-_01.csv"
     fi
     if [ -f "$controlfolder/utils/patcher.txt" ]; then
         export PATCHER_FILE="$GAMEDIR/tools/patchscript"
