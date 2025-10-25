@@ -1,9 +1,9 @@
 {
   "version": 4,
-  "name": "evans_remains.zip",
+  "name": "evansremains.zip",
   "items": [
     "Evans Remains.sh",
-    "evans_remains"
+    "evansremains"
   ],
   "items_opt": [],
   "attr": {
@@ -13,7 +13,7 @@
     ],
     "desc": "Evan's Remains is a mystery-thriller puzzle adventure about finding a missing boy: Evan. The game combines logic-based platform puzzles with narrative inspired by Japanese graphic adventure games.",
     "desc_md": null,
-    "inst": "Add the game files to assets/",
+    "inst": "Add the itch.io game files to assets/ . Steam files known not to work.",
     "inst_md": null,
     "genres": [
       "platformer",
@@ -25,14 +25,9 @@
     "runtime": [],
     "store": [
       {
-        "name": "Steam",
-        "gameurl": "https://store.steampowered.com/app/1110050/Evans_Remains/",
+        "name": "Itchio",
+        "gameurl": "https://maitan69.itch.io/evans-remains",
         "developerurl": "https://whitethorngames.com/evans-remains"
-      },
-      {
-        "name": "",
-        "gameurl": "",
-        "developerurl": ""
       }
     ],
     "availability": "paid",
