@@ -28,6 +28,11 @@
         "name": "Itchio",
         "gameurl": "https://maitan69.itch.io/evans-remains",
         "developerurl": "https://whitethorngames.com/evans-remains"
+      },
+      {
+        "name": "Steam",
+        "gameurl": "https://store.steampowered.com/app/1110050/Evans_Remains/",
+        "developerurl": "https://whitethorngames.com/evans-remains"
       }
     ],
     "availability": "paid",
