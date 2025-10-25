@@ -17,7 +17,7 @@ source $controlfolder/control.txt
 get_controls
 
 # Variables
-GAMEDIR="/$directory/ports/evans_remains"
+GAMEDIR="/$directory/ports/evansremains"
 
 # CD and set logging
 cd $GAMEDIR

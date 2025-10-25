@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Evans Remain.sh</path>
+    <name>Evan's Remains</name>
+    <desc>Evan's Remains is a mystery-thriller puzzle adventure about finding a missing boy: Evan. The game combines logic-based platform puzzles with narrative inspired by Japanese graphic adventure games.
+</desc>
+    <releasedate>20200611T000000</releasedate>
+    <developer>maitan69</developer>
+    <publisher>Whitethorn Games</publisher>
+    <genre>Puzzle Platformer</genre>
+    <image>evans_remains/cover.png</image>
+  </game>
+</gameList>

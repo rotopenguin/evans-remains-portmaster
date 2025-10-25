@@ -1,0 +1,47 @@
+{
+  "version": 4,
+  "name": "evans_remains.zip",
+  "items": [
+    "Evans Remains.sh",
+    "evans_remains"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Evan's Remains",
+    "porter": [
+      "rotopenguin"
+    ],
+    "desc": "Evan's Remains is a mystery-thriller puzzle adventure about finding a missing boy: Evan. The game combines logic-based platform puzzles with narrative inspired by Japanese graphic adventure games.",
+    "desc_md": null,
+    "inst": "Add the game files to assets/",
+    "inst_md": null,
+    "genres": [
+      "platformer",
+      "puzzle"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": [],
+    "store": [
+      {
+        "name": "Steam",
+        "gameurl": "https://store.steampowered.com/app/1110050/Evans_Remains/",
+        "developerurl": "https://whitethorngames.com/evans-remains"
+      },
+      {
+        "name": "",
+        "gameurl": "",
+        "developerurl": ""
+      }
+    ],
+    "availability": "paid",
+    "reqs": [
+      "!lowres"
+    ],
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": ""
+  }
+}
