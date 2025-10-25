@@ -41,9 +41,9 @@ if [ ! -f patchlog.txt ] || [ -f "$GAMEDIR/assets/data.win" ]; then
         mv "$GAMEDIR/assets/credits01 - 01.csv" 	"$GAMEDIR/assets/credits01_-_01.csv"
     fi
     if [ -f "$GAMEDIR/steam_api.dll" ] ; then
-        mv "$GAMEDIR/wrapper/2.2.2.302 - 17.apk" "$GAMEDIR/game.port"
-    else
         mv "$GAMEDIR/wrapper/2.3 - 17.apk" "$GAMEDIR/game.port"
+    else
+        mv "$GAMEDIR/wrapper/2.2.2.302 - 17.apk" "$GAMEDIR/game.port"
     fi
     rm -r "$GAMEDIR/wrapper/"
     if [ -f "$controlfolder/utils/patcher.txt" ]; then
