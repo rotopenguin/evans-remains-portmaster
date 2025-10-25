@@ -44,7 +44,7 @@ if [ ! -f patchlog.txt ] || [ -f "$GAMEDIR/assets/data.win" ]; then
     fi
     if [ -f "$GAMEDIR/assets/steam_api.dll" ] ; then
         mv "$GAMEDIR/wrapper/2.3 - 17.apk" "$GAMEDIR/game.port"
-    else
+    else #I suppose it is the itch.io version.
         mv "$GAMEDIR/wrapper/2.2.2.302 - 17.apk" "$GAMEDIR/game.port"
     fi
     rm -r "$GAMEDIR/wrapper/"
