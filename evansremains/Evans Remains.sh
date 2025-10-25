@@ -21,7 +21,9 @@ GAMEDIR="/$directory/ports/evansremains"
 
 # CD and set logging
 cd $GAMEDIR
-> "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
+> "$GAMEDIR/log.txt" && exec > >(grep --line-buffered -v "gainflag.txt" | tee "$GAMEDIR/log.txt") 2>&1
+# The game will endlessly log "_FileExists fail in zip - assets/gainflag.txt". Be kind to your SD card.
+# Putting an empty file there is a crasherino.
 
 # Setup permissions
 $ESUDO chmod +xwr "$GAMEDIR/gmloadernext.aarch64"
