@@ -42,7 +42,7 @@ if [ ! -f patchlog.txt ] || [ -f "$GAMEDIR/assets/data.win" ]; then
         mv "$GAMEDIR/assets/backersNames01 - 01.csv" 	"$GAMEDIR/assets/backersNames01_-_01.csv"
         mv "$GAMEDIR/assets/credits01 - 01.csv" 	"$GAMEDIR/assets/credits01_-_01.csv"
     fi
-    if [ -f "$GAMEDIR/assets/steam_api.dll" ] ; then
+    if [ -f "$GAMEDIR/assets/steam_api.dll" ] || [ -f "$GAMEDIR/assets/gog.ico" ] ; then
         mv "$GAMEDIR/wrapper/2.3 - 17.apk" "$GAMEDIR/game.port"
     else #I suppose it is the itch.io version.
         mv "$GAMEDIR/wrapper/2.2.2.302 - 17.apk" "$GAMEDIR/game.port"
